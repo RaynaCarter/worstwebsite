@@ -1,0 +1,57 @@
+
+
+body {
+    background-image: url('pug.jpeg');
+  } 
+  *,
+  *::after,
+  *::before {
+    margin: 10;
+    padding: 20;
+    box-sizing: inherit; 
+  }
+  
+  h2 {
+    font-size: 45px;
+    color: red;
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    background-color: yellow;
+  }
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+  }
+  
+  body {
+    font-family: "Nunito", sans-serif;
+    color: #333;
+    font-weight: 300;
+    line-height: 1.6; 
+  }
+  
+  h1{
+    margin-top: 120;
+    border-style: outset;
+    border-width: thick;
+    border-color: red;
+      font-size: 45px;
+      color: red;
+      background-color: yellow;
+  }
+  .Link{
+    border-style: dotted;
+    border-width: thick;
+    border-color: red;
+    color: red;
+    background-color: yellow;
+    font-size: 35px;
+    padding-bottom: 10;
+    padding-top: 10;
+    padding-left: 10;
+    padding-right: 10;
+
+}
+  
+ 

@@ -1,0 +1,89 @@
+body{
+    background-color: yellow;
+}
+/* img{
+    width: 300px;
+} */
+span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+  
+  }
+
+span.c {
+    display: block;
+    width: 500px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+h1 {
+    position: relative;
+    left:10px;
+    text-decoration-color: rgb(255, 0, 0);
+    color: red;
+    text-align: center;
+    margin: 50px ;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+}
+
+
+// Non relevant styles
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #6439a9;
+}
+
+.container {
+  padding: 100px 30px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+// clearfix
+.image-stack::after {
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.image-stack__item--top {
+    float: left;
+    width: 300px;
+    margin-right: -100%;
+    padding-top: 15%; // arbitrary
+    position: relative;
+    z-index: 1;
+}
+
+.image-stack__item--bottom {
+    float: right;
+    width: 300px;
+}
+img {
+    width: 100%;
+  }
+  #beagal2 {
+    float: right;
+    width: 500px;
+    margin: 50px;
+
+}
+
+#beagal3 {
+    width: 300px;
+    float:left;
+    margin: 50px;
+}
